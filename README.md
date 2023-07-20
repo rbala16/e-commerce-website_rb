@@ -1,8 +1,8 @@
 # 13 Object-Relational Mapping (ORM): E-Commerce Back End
 
-## Your Task
+## Description
 
-Your task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
+ Build the back end for an e-commerce site by modifying starter code. Moreover, Configure a working Express.js API to use Sequelize to interact with a MySQL database.
 
 ## Table of Contents
 
@@ -10,7 +10,7 @@ Your task is to build the back end for an e-commerce site by modifying starter c
 - [Acceptance Criteria](#acceptance-criteria)
 - [License](#license)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Instructions](#instructions)
 - [Contributing](#contributing)
 - [Questions](#questions)
 
@@ -39,6 +39,32 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
+## License 
+MIT License
+
+## Installation
+1. Clone the repository
+2. Install the following: 
+- Node.JS [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
+- Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
+- mysql2 (https://www.npmjs.com/package/mysql2)
+- Sequelize ( https://www.npmjs.com/package/sequelize)
+- dotenv (https://www.npmjs.com/package/dotenv)
+
+## Instructions
+💻   
+Run the following command at the terminal:
+`mysql -u root -p` <br>
+`npm run seed` <br>
+`npm start`
+Please watch the demo viedo for step by step instructions
+
+## Contributing
+Rajni bala : (https://github.com/rbala16)
+
+## Questions
+✉️ Contact me with any questions: [Email:]bala12rajni@gmail.com , [Github](https://github.com/rbala16)<br />
+
 ## Mock-Up
 
 The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
@@ -55,26 +81,13 @@ The following animation shows the application's POST, PUT, and DELETE routes for
 
 Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
 
-
-
-
-### Seed the Database
-
-After creating the models and routes, run `npm run seed` to seed data to your database so that you can test your routes.
-
-### Sync Sequelize to the Database on Server Start
-
-Create the code needed in `server.js` to sync the Sequelize models to the MySQL database on server start.
-
-
-
-## Review
+## Important links
 
 You are required to submit BOTH of the following for review:
 
-* A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met.
+* A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met.<br>
+https://drive.google.com/file/d/1NhSf1V5wi4tG9vXRYL4bAIXRMsixZQJB/view
 
 * The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
+https://github.com/rbala16/e-commerce-website_rb
 
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
