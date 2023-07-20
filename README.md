@@ -57,7 +57,8 @@ Run the following command at the terminal:
 `mysql -u root -p` <br>
 `npm run seed` <br>
 `npm start`
-Please watch the demo viedo for step by step instructions
+Please watch the Walkthrough viedo for step by step instructions<br>
+https://drive.google.com/file/d/1NhSf1V5wi4tG9vXRYL4bAIXRMsixZQJB/view
 
 ## Contributing
 Rajni bala : (https://github.com/rbala16)
@@ -79,7 +80,7 @@ The following animation shows the application's POST, PUT, and DELETE routes for
 
 ![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
 
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
+
 
 ## Important links
 
